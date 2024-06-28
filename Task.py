@@ -1,5 +1,5 @@
-rowc = int(input("Enter row count: "))
-colc = int(input("Enter column count: "))
+rowc = int(input("Number of rows: "))
+colc = int(input("Number of columns: "))
 
 for row in range(rowc * 4 + 1):
     for col in range(5 + (colc-1) * 4):
